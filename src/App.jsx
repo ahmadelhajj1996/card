@@ -14,24 +14,34 @@ function App() {
     return () => window.removeEventListener("resize", updateScale);
   }, []);
 
+  const isMobile = scale < 1;
+
   return (
-    // ← Outer wrapper: clips overflow and sets the visible height
     <div
-      style={{
-        width: "100%",
-        height: `${1123 * scale}px`,   // shrinks the occupied height too
-        overflow: "hidden",
-      }}
+      style={
+        isMobile
+          ? {
+              width: "100%",
+              height: `${1234 * scale}px`, // ← MUST multiply by scale
+              overflow: "hidden",
+            }
+          : {
+              display: "flex",
+              justifyContent: "center",
+            }
+      }
     >
-      {/* ← Inner A4 page: always 794px wide, scaled down visually */}
       <div
         style={{
           width: "794px",
-          minHeight: "1123px",
-          transform: `scale(${scale})`,
-          transformOrigin: "top left",  // ← key: anchor to left, not center
+          height: "1234px",
+          boxShadow: "0 0 10px rgba(0,0,0,0.1)",
+          boxSizing: "border-box",
+          transform: isMobile ? `scale(${scale})` : "none",
+          transformOrigin: "top left",
+          overflow: "hidden",
         }}
-        className="p-3 shadow-md"
+        className="p-3"
       >
         <AppRoutes />
       </div>
