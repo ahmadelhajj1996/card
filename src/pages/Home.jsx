@@ -55,7 +55,7 @@ function Home() {
 
       {/* the whole section  */}
 
-      <div className=" relative py-1.5  mx-3  my-1 mt-12 rounded-2xl  border-[2px] border-gray-400 ">
+      <div className=" relative py-1.5  mx-3  my-1 mt-10 rounded-2xl  border-[2px] border-gray-400 ">
         <div className=" absolute -top-8 text-[12px]  text-red-500 font-bold flex items-center gap-x-1 ">
           Date:
           <span className=" text-green-500">
@@ -187,7 +187,7 @@ function Home() {
               />
             </div>
 
-            <div className="col-span-3  flex flex-col gap-y-1">
+            <div className="col-span-3  flex flex-col gap-y-0.5">
               <div className="w-full  p-1 relative border-[2px] border-gray-400">
                 <div className="absolute top-0 right-0  px-2 bg-gray-400 font-semibold text-xs sm:text-sm border-[2px] border-t-0 border-r-0 border-gray-400">
                   ملاحظات المركبة
@@ -215,7 +215,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="w-full  p-1 relative border-[2px] border-gray-400">
+              <div className="w-full  p-0.5 relative border-[2px] border-gray-400">
                 <div className="absolute top-0 right-0  px-2 bg-gray-400 font-semibold text-xs sm:text-sm border-[2px] border-t-0 border-r-0 border-gray-400">
                   ملاحظات العميل
                 </div>
@@ -231,7 +231,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="w-full  p-1 relative border-[2px] border-gray-400">
+              <div className="w-full  p-.5 relative border-[2px] border-gray-400">
                 <div className="absolute top-0 right-0  px-2 bg-gray-400 font-semibold text-xs sm:text-sm border-[2px] border-t-0 border-r-0 border-gray-400">
                   ملاحظات الفني
                 </div>
@@ -256,7 +256,7 @@ function Home() {
               الخدمات
             </p>
             <div
-              className="p-1.5  flex flex-wrap gap-y-2  border-[2px] border-t-0 border-gray-500  "
+              className="p-1  flex flex-wrap gap-y-2  border-[2px] border-t-0 border-gray-500  "
               dir="rtl"
             >
               {servicesItems.map((label, index) => (
@@ -271,7 +271,7 @@ function Home() {
           </div>
 
           <div>
-            <p className=" text-center bg-gray-200 py-1 font-bold rounded-t-xl">
+            <p className=" text-center bg-gray-200 py-0.5 font-bold rounded-t-xl">
               قطع الغيار
             </p>
 
@@ -313,7 +313,7 @@ function Home() {
         </div>
       </div>
 
-      <div className=" mt-8 mx-3" dir="rtl">
+      <div className=" mt-4 mx-3" dir="rtl">
         <p className=" ps-6 bg-gray-200 py-1 font-bold rounded-t-xl">
           الشروط والأحكام
         </p>
