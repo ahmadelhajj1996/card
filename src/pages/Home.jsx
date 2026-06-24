@@ -9,6 +9,7 @@ import {
 import { Phone, MapPin, Globe, Mail } from "lucide-react";
 import carImage from "../assets/Image.jpeg";
 import Logo from "../assets/Logo.png";
+import Qrcode from '../assets/Qrcode.png'
 
 function Home() {
   return (
@@ -393,7 +394,7 @@ function Home() {
           </div>
         </div>
         <div className="border-[2px]  border-gray-500 p-1.5 col-span-1">
-          <div className="grid grid-cols-4 gap-1 w-full h-full opacity-90">
+          {/* <div className="grid grid-cols-4 gap-1 w-full h-full opacity-90">
             {[...Array(16)].map((_, i) => (
               <div
                 key={i}
@@ -408,7 +409,9 @@ function Home() {
                 }`}
               />
             ))}
-          </div>
+          </div> */}
+                    <img src={Qrcode} />
+
         </div>
       </div>
     </>
