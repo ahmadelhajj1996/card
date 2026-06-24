@@ -313,7 +313,7 @@ function Home() {
         </div>
       </div>
 
-      <div className=" mt-8 mx-3" dir="rtl">
+      <div className=" mt-4 mx-3" dir="rtl">
         <p className=" ps-6 bg-gray-200 py-1 font-bold rounded-t-xl">
           الشروط والأحكام
         </p>
