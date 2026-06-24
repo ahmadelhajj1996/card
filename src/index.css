@@ -15,6 +15,24 @@
     font-family: "Cairo", sans-serif;  
   }
 }
+ @layer components {
+  .custom-checkbox {
+    width: 12px;
+    height: 12px;
+  }
+
+  .custom-checkbox:checked::after {
+    content: '✓';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #14532d;
+    font-size: 20px;
+    line-height: 10px;
+    margin-bottom : 14px;    /* ← push DOWN (increase this number) */
+    /* or: transform: translateY(4px); */
+  }
+}
 
 @media print {
   @page {
