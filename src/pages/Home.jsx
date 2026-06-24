@@ -187,7 +187,7 @@ function Home() {
               />
             </div>
 
-            <div className="col-span-3  flex flex-col gap-y-0.5">
+            <div className="col-span-3  flex flex-col gap-y-1.5">
               <div className="w-full  p-1 relative border-[2px] border-gray-400">
                 <div className="absolute top-0 right-0  px-2 bg-gray-400 font-semibold text-xs sm:text-sm border-[2px] border-t-0 border-r-0 border-gray-400">
                   ملاحظات المركبة
