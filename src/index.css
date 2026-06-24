@@ -1,0 +1,58 @@
+@tailwind base;        
+@tailwind components;    
+@tailwind utilities;   
+
+@font-face {            
+  font-family: "Cairo";
+  src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS4J0.woff2") format("woff2");
+  font-weight: 100 900;  
+  font-style: normal;
+  font-display: swap;    
+}
+
+@layer base {
+  body {
+    font-family: "Cairo", sans-serif;  
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 210mm !important;
+    height: 297mm !important;
+    overflow: hidden !important;
+    background: #fff;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-page {
+    width: 210mm !important;
+    min-height: unset !important;
+    height: 297mm !important;
+    max-height: 297mm !important;
+    margin: 0 !important;
+    padding: 4mm !important;
+    box-shadow: none !important;
+    overflow: hidden !important;
+    position: relative !important;
+    /* Force everything to fit */
+    transform-origin: top left;
+    zoom: 1;
+  }
+}
+
+
+/* 
+@media print {
+  * {
+    outline: 1px solid rgba(255,0,0,0.1) !important;
+  }
+} */
