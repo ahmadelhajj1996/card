@@ -62,7 +62,7 @@ function Home() {
           </span>
         </div>
 
-        <div className="absolute -top-[38px] w-[190px] left-1/2 -translate-x-1/2 bg-gray-400 text-white py-1 flex flex-col justify-center items-center rounded-t-xl">
+        <div className="absolute -top-[38px] w-[190px] left-1/2 -translate-x-1/2 bg-gray-400 text-white py-1 flex flex-col justify-center items-center rounded-t-xl border-[2px] border-b-0 border-gray-400">
           <p className="text-lg font-bold flex gap-x-2 tracking-wider">
             عمل <span> بطاقة</span>
           </p>
