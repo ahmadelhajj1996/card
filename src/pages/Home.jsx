@@ -215,7 +215,7 @@ function Home() {
                   {customerNotes.map((label, index) => (
                     <label
                       key={index}
-                      className="flex items-center px-2 bg-gray-100 border rounded-full text-green-900 font-semibold text-[10px]"
+                      className="flex items-center px-2 bg-gray-100 border rounded-full text-green-900 font-bold text-[10px]"
                     >
                       <span>{label}</span>
                     </label>
