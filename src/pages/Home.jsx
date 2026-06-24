@@ -382,7 +382,7 @@ function Home() {
         <div className="border-[2px] border-gray-500 p-1 col-span-1 h-16 flex items-center justify-center">
           <img
             src={Qrcode}
-            className=" object-cover h-12 w-14  "
+            className=" object-cover   "
             alt="QR Code"
           />
         </div>
