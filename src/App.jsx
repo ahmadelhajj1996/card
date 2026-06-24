@@ -5,7 +5,7 @@ function App() {
     <>
       <div
         style={{
-                   maxWidth: "794px", 
+                   width: "794px", 
 
           minHeight: "1123px",
           margin: "0 auto",
