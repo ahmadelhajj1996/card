@@ -55,7 +55,7 @@ function Home() {
 
       {/* the whole section  */}
 
-      <div className=" relative py-1.5  mx-3  my-1 mt-12 rounded-2xl  border-[2px] border-gray-400 ">
+      <div className=" relative py-1.5  mx-3  my-1 mt-10 rounded-2xl  border-[2px] border-gray-400 ">
         <div className=" absolute -top-8 text-[12px]  text-red-500 font-bold flex items-center gap-x-1 ">
           Date:
           <span className=" text-green-500">
@@ -86,7 +86,7 @@ function Home() {
               </span>
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col ">
             <p className=" text-center bg-gray-200 py-1  font-bold rounded-t-xl">
               بيانات العميل
             </p>
@@ -193,7 +193,7 @@ function Home() {
                   ملاحظات المركبة
                 </div>
 
-                <div className="flex flex-wrap gap-2 gap-x-4  ">
+                <div className="flex flex-wrap gap-2 gap-x-4 p-0.5  ">
                   {items.map((label, index) => (
                     <label
                       key={index}
@@ -219,7 +219,7 @@ function Home() {
                 <div className="absolute top-0 right-0  px-2 bg-gray-400 font-semibold text-xs sm:text-sm border-[2px] border-t-0 border-r-0 border-gray-400">
                   ملاحظات العميل
                 </div>
-                <div className="flex flex-wrap gap-1 gap-y-2 gap-x-3 ">
+                <div className="flex flex-wrap gap-1 gap-y-2 gap-x-4 p-0.5 ">
                   {customerNotes.map((label, index) => (
                     <label
                       key={index}
@@ -235,7 +235,7 @@ function Home() {
                 <div className="absolute top-0 right-0  px-2 bg-gray-400 font-semibold text-xs sm:text-sm border-[2px] border-t-0 border-r-0 border-gray-400">
                   ملاحظات الفني
                 </div>
-                <div className="flex flex-wrap gap-1 gap-y-2 ">
+                <div className="flex flex-wrap gap-1 gap-y-4 p-0.5 ">
                   {technicianNotes.map((label, index) => (
                     <label
                       key={index}
@@ -313,7 +313,7 @@ function Home() {
         </div>
       </div>
 
-      <div className=" mt-2 mx-3" dir="rtl">
+      <div className=" mt-8 mx-3" dir="rtl">
         <p className=" ps-6 bg-gray-200 py-1 font-bold rounded-t-xl">
           الشروط والأحكام
         </p>
