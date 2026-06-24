@@ -55,7 +55,7 @@ function Home() {
 
       {/* the whole section  */}
 
-      <div className=" relative py-1.5  mx-3  my-1 mt-6 rounded-2xl  border-[2px] border-gray-400 ">
+      <div className=" relative py-1.5  mx-3  my-1 mt-4 rounded-2xl  border-[2px] border-gray-400 ">
         <div className=" absolute -top-8 text-[12px]  text-red-500 font-bold flex items-center gap-x-1 ">
           Date:
           <span className=" text-green-500">
