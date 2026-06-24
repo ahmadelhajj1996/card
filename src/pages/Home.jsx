@@ -19,20 +19,36 @@ function Home() {
         <img src={Logo} className="h-10 sm:h-12 w-72 my-auto" alt="Logo" />
         <div className="flex flex-col gap-y-1">
           <div className="flex items-center gap-1">
-            <Phone size={20} className="border-gray-500 border-[1px] p-[3px] rounded-full" />
+            <Phone
+              size={20}
+              className="border-gray-500 border-[1px] p-[3px] rounded-full"
+            />
             <span className="text-[10px] font-bold">+971 50 123 4567</span>
           </div>
           <div className="flex items-center gap-1">
-            <MapPin size={20} className="border-gray-500 border-[1px] p-[3px] rounded-full" />
-            <span className="text-[10px] font-bold">UAE , Ajman, Free Zone</span>
+            <MapPin
+              size={20}
+              className="border-gray-500 border-[1px] p-[3px] rounded-full"
+            />
+            <span className="text-[10px] font-bold">
+              UAE , Ajman, Free Zone
+            </span>
           </div>
           <div className="flex items-center gap-1">
-            <Globe size={20} className="border-gray-500 border-[1px] p-[3px] rounded-full" />
+            <Globe
+              size={20}
+              className="border-gray-500 border-[1px] p-[3px] rounded-full"
+            />
             <span className="text-[10px] font-bold">www.automasterpro.com</span>
           </div>
           <div className="flex items-center gap-1">
-            <Mail size={20} className="border-gray-500 border-[1px] p-[3px] rounded-full" />
-            <span className="text-[10px] font-bold">info@automasterpro.com</span>
+            <Mail
+              size={20}
+              className="border-gray-500 border-[1px] p-[3px] rounded-full"
+            />
+            <span className="text-[10px] font-bold">
+              info@automasterpro.com
+            </span>
           </div>
         </div>
       </div>
@@ -103,20 +119,52 @@ function Home() {
               بيانات المركبة
             </p>
             <div className="grid grid-cols-6 w-full border-[2px] border-t-0 border-gray-400 text-center">
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-[12px] font-bold">نوع المركبة</p></div>
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-[12px] font-bold">الموديل</p></div>
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-[12px] font-bold">رقم اللوحة</p></div>
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-[12px] font-bold">اللون</p></div>
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-[12px] font-bold">رقم العداد</p></div>
-              <div className="py-1"><p className="text-[12px] font-bold">رقم القاعدة</p></div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-[12px] font-bold">نوع المركبة</p>
+              </div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-[12px] font-bold">الموديل</p>
+              </div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-[12px] font-bold">رقم اللوحة</p>
+              </div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-[12px] font-bold">اللون</p>
+              </div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-[12px] font-bold">رقم العداد</p>
+              </div>
+              <div className="py-1">
+                <p className="text-[12px] font-bold">رقم القاعدة</p>
+              </div>
             </div>
             <div className="grid grid-cols-6 w-full border-[2px] border-t-0 border-gray-400 text-center">
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-gray-600 text-[12px] font-semibold">نيسان صني</p></div>
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-gray-600 text-[12px] font-semibold">2024</p></div>
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-gray-600 text-[12px] font-semibold">AJMAN A 55990</p></div>
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-gray-600 text-[12px] font-semibold">أبيض</p></div>
-              <div className="border-l-[3px] border-gray-200 py-1"><p className="text-gray-600 text-[12px] font-semibold">168502</p></div>
-              <div className="py-1"><p className="text-gray-600 text-[12px] font-semibold">IN457687BT56788</p></div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-gray-600 text-[12px] font-semibold">
+                  نيسان صني
+                </p>
+              </div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-gray-600 text-[12px] font-semibold">2024</p>
+              </div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-gray-600 text-[12px] font-semibold">
+                  AJMAN A 55990
+                </p>
+              </div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-gray-600 text-[12px] font-semibold">أبيض</p>
+              </div>
+              <div className="border-l-[3px] border-gray-200 py-1">
+                <p className="text-gray-600 text-[12px] font-semibold">
+                  168502
+                </p>
+              </div>
+              <div className="py-1">
+                <p className="text-gray-600 text-[12px] font-semibold">
+                  IN457687BT56788
+                </p>
+              </div>
             </div>
           </div>
 
@@ -141,12 +189,16 @@ function Home() {
                 </div>
                 <div className="flex flex-wrap gap-2 p-0.5">
                   {items.map((label, index) => (
-                    <label key={index} className="flex items-center gap-0.5 cursor-pointer">
+                    <label
+                      key={index}
+                      className="flex items-center gap-0.5 cursor-pointer"
+                    >
                       <input
                         checked
                         readOnly
                         type="checkbox"
-                        className="h-3 w-3 appearance-none rounded border border-gray-300 bg-white checked:border-green-800 checked:bg-white checked:after:flex checked:after:items-center checked:after:justify-center checked:after:text-green-900 checked:after:content-['✓']"
+                        className="appearance-none rounded border border-gray-300 
+    bg-white checked:border-green-800 checked:bg-white custom-checkbox"
                       />
                       <span className="text-[10px] font-bold">{label}</span>
                     </label>
@@ -161,7 +213,10 @@ function Home() {
                 </div>
                 <div className="flex flex-wrap gap-1 p-0.5">
                   {customerNotes.map((label, index) => (
-                    <label key={index} className="flex items-center px-2 bg-gray-100 border rounded-full text-green-900 font-semibold text-[10px]">
+                    <label
+                      key={index}
+                      className="flex items-center px-2 bg-gray-100 border rounded-full text-green-900 font-semibold text-[10px]"
+                    >
                       <span>{label}</span>
                     </label>
                   ))}
@@ -175,7 +230,10 @@ function Home() {
                 </div>
                 <div className="flex flex-wrap gap-1 p-0.5">
                   {technicianNotes.map((label, index) => (
-                    <label key={index} className="flex items-center px-2 bg-gray-100 border rounded-full text-green-800 font-bold text-[10px]">
+                    <label
+                      key={index}
+                      className="flex items-center px-2 bg-gray-100 border rounded-full text-green-800 font-bold text-[10px]"
+                    >
                       <span>{label}</span>
                     </label>
                   ))}
@@ -189,7 +247,10 @@ function Home() {
             <p className="text-center bg-gray-200 py-0.5 text-[13px] font-bold rounded-t-xl border-[2px] border-b-0 border-gray-400">
               الخدمات
             </p>
-            <div className="p-1 flex flex-wrap gap-x-4 border-[2px] border-t-0 border-gray-500" dir="rtl">
+            <div
+              className="p-1 flex flex-wrap gap-x-4 border-[2px] border-t-0 border-gray-500"
+              dir="rtl"
+            >
               {servicesItems.map((label, index) => (
                 <div key={index} className="flex items-center">
                   <label className="flex items-center gap-1 text-green-900 font-semibold text-xs">
@@ -210,12 +271,19 @@ function Home() {
               {columnsData.map((columnItems, colIndex) => (
                 <div key={colIndex} className="flex flex-col">
                   <div className="grid grid-cols-5 bg-gray-50 border-b border-gray-300 text-center font-semibold text-green-900 text-xs py-[1px]">
-                    <div className="col-span-4 border-l border-gray-300 px-2 text-start text-[10px] font-bold">الوصف</div>
-                    <div className="col-span-1 px-1 text-[10px] font-bold">الكمية</div>
+                    <div className="col-span-4 border-l border-gray-300 px-2 text-start text-[10px] font-bold">
+                      الوصف
+                    </div>
+                    <div className="col-span-1 px-1 text-[10px] font-bold">
+                      الكمية
+                    </div>
                   </div>
                   <div className="flex flex-col divide-y divide-gray-200 flex-1">
                     {columnItems.map((item, rowIndex) => (
-                      <div key={rowIndex} className="grid grid-cols-5 text-[10px] font-semibold text-green-900 text-center py-[1px] items-center">
+                      <div
+                        key={rowIndex}
+                        className="grid grid-cols-5 text-[10px] font-semibold text-green-900 text-center py-[1px] items-center"
+                      >
                         <div className="col-span-4 border-l border-gray-300 px-2 text-right truncate flex items-center h-full min-h-[16px]">
                           {item?.desc || ""}
                         </div>
@@ -229,7 +297,6 @@ function Home() {
               ))}
             </div>
           </div>
-
         </div>
       </div>
 
@@ -241,9 +308,14 @@ function Home() {
         <div className="p-1.5 border-[2px] border-t-0 border-gray-500">
           <ol className="space-y-0.5 ps-2">
             {termsAndConditions.map((term, index) => (
-              <li key={index} className="font-bold text-green-900 text-justify flex items-start gap-1">
+              <li
+                key={index}
+                className="font-bold text-green-900 text-justify flex items-start gap-1"
+              >
                 <span className="text-[8px] font-bold">{index + 1}-</span>
-                <span className="text-[8px] font-bold leading-tight">{term}</span>
+                <span className="text-[8px] font-bold leading-tight">
+                  {term}
+                </span>
               </li>
             ))}
           </ol>
@@ -253,9 +325,12 @@ function Home() {
                 checked
                 readOnly
                 type="checkbox"
-                className="h-3 w-3 appearance-none rounded border border-gray-300 bg-white checked:border-green-800 checked:bg-white checked:after:flex checked:after:items-center checked:after:justify-center checked:after:text-green-900 checked:after:content-['✓']"
+                className="appearance-none rounded border border-gray-300 
+    bg-white checked:border-green-800 checked:bg-white custom-checkbox"
               />
-              <span className="text-[8px] font-bold">أقر بأنني قد قرأت جميع الشروط وبنود هذا العقد واوافق عليها</span>
+              <span className="text-[8px] font-bold">
+                أقر بأنني قد قرأت جميع الشروط وبنود هذا العقد واوافق عليها
+              </span>
             </label>
           </div>
         </div>
@@ -263,39 +338,53 @@ function Home() {
 
       {/* Footer Approvals Signatures Block */}
       <div className="mt-1 mb-0 mx-3 grid grid-cols-10 gap-x-1.5" dir="rtl">
-        <div className="border-[2px] border-gray-500 p-1 col-span-2 grid h-14 grid-cols-3">
+        <div className="border-[2px] border-gray-500 p-1 col-span-2 grid h-16 grid-cols-3">
           <p className="font-bold text-[9px]">توقيع العميل:</p>
           <div className="col-span-2 flex justify-center items-center h-10 w-full opacity-90 text-gray-500">
-            <svg viewBox="0 0 100 50" className="w-full h-full stroke-current stroke-[1] fill-none">
+            <svg
+              viewBox="0 0 100 50"
+              className="w-full h-full stroke-current stroke-[1] fill-none"
+            >
               <path d="M10,40 Q30,5 50,25 T90,10 M40,45 L60,5" />
             </svg>
           </div>
         </div>
 
-        <div className="border-[2px] border-gray-500 p-1 col-span-7 flex justify-between w-full h-14">
+        <div className="border-[2px] border-gray-500 p-1 col-span-7 flex justify-between w-full h-16">
           <div className="flex flex-col justify-center gap-y-0.5 w-full">
             <div className="flex items-center gap-x-2">
               <p className="text-[8px] font-bold">الفني المشرف:</p>
-              <span className="text-gray-600 text-[8px] font-semibold">خليفة عبيد أحمد الشامسي</span>
+              <span className="text-gray-600 text-[8px] font-semibold">
+                خليفة عبيد أحمد الشامسي
+              </span>
             </div>
             <div className="flex items-center gap-x-1">
               <p className="text-[8px] font-bold">الملاحظات:</p>
-              <span className="text-gray-600 text-[8px] font-semibold">لا توجد ملاحظات</span>
+              <span className="text-gray-600 text-[8px] font-semibold">
+                لا توجد ملاحظات
+              </span>
             </div>
           </div>
 
           <div className="grid grid-cols-3 w-1/2">
             <p className="font-bold text-[9px]">توقيعه:</p>
             <div className="col-span-2 flex justify-center items-center w-full opacity-90 text-gray-500">
-              <svg viewBox="0 0 100 50" className="w-full h-full stroke-current stroke-[1] fill-none">
+              <svg
+                viewBox="0 0 100 50"
+                className="w-full h-full stroke-current stroke-[1] fill-none"
+              >
                 <path d="M10,40 Q30,5 50,25 T90,10 M40,45 L60,5" />
               </svg>
             </div>
           </div>
         </div>
 
-        <div className="border-[2px] border-gray-500 p-1 col-span-1 h-14 flex items-center justify-center">
-          <img src={Qrcode} className="max-h-full max-w-full object-contain" alt="QR Code" />
+        <div className="border-[2px] border-gray-500 p-1 col-span-1 h-16 flex items-center justify-center">
+          <img
+            src={Qrcode}
+            className=" object-cover h-12 w-14  "
+            alt="QR Code"
+          />
         </div>
       </div>
     </>
