@@ -38,7 +38,7 @@ function Home() {
       </div>
 
       {/* Main Framework Block */}
-      <div className="relative py-1.5 mx-3 mt-10p rounded-2xl border-[2px] border-gray-400">
+      <div className="relative py-1.5 mx-3 mt-10 rounded-2xl border-[2px] border-gray-400">
         <div className="absolute -top-7 left-2 text-[11px] text-red-500 font-bold flex items-center gap-x-1">
           Date:
           <span className="text-green-500">
